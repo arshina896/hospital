@@ -22,7 +22,9 @@ header nav ul li a:hover{
 header nav ul li a:active{
     color: white;
 }
-
+.active{
+    color: ghostwhite;
+}
 
 header nav ul  li{
     text-transform: capitalize;

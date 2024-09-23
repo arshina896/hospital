@@ -1,0 +1,159 @@
+body {
+    background-color: #AEC6CF;
+
+}
+
+.bread-img {
+    width: 100%;
+    z-index: 1;
+ 
+}
+
+.img-sec {
+
+    width: 1600;
+    height: 353px;
+    background-color: #AEC6CF;
+    opacity: 40%;
+}
+
+.btm-img {
+    
+    background-image: url(../images/bread-bg.jpg);
+    /* width: 1600px; */
+    width: 100%;
+    height: 353px;
+}
+
+.container {
+ 
+
+    width: 950px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    /* */
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    top: 90px;
+    box-shadow: 1px 1px 2px 3px rgb(210, 206, 206);
+
+}
+
+.form {
+ 
+
+    position: relative;
+    top: 40px;
+}
+
+.just {
+ 
+
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+.contact-form p {
+    position: relative;
+    top: 10px;
+ 
+
+}
+
+.form-group {
+ 
+
+    width: 70px;
+    height: 30px;
+}
+
+.form-group {
+    margin-bottom: 1rem
+}
+
+input {
+    width: 200px;
+    height: 40px;
+}
+
+textarea {
+    width: 450px;
+    height: 90px;
+    position: relative;
+    bottom: 40px;
+}
+
+.email {
+    position: relative;
+    bottom: 45px;
+    left: 250px;
+
+}
+
+.phone {
+    position: relative;
+    bottom: 20px;
+
+}
+
+.sub {
+    /* */
+
+    position: relative;
+    bottom: 65px;
+    left: 250px;
+}
+
+
+.btn {
+   
+
+    width: 450px;
+    height: 40px;
+    border-radius: .25rem;
+    background-color: #9eb9c3;
+    border: none;
+    position: relative;
+    top: 20px;
+}
+
+.single-info,
+.content {
+   
+
+    background-color:#73939e;
+    /* background-color: rgb(71, 108, 120); */
+    color: rgb(208, 200, 200);
+    height: 100px;
+    width: 300px;
+    margin: 20px;
+transition: 1s;
+    padding: 25px 70px;
+
+}
+
+.contact-info {
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+   
+    margin-bottom: 200px;
+
+}
+.single-info:hover ,.content:hover{
+    box-shadow: 5px 5px 12px 0 #70a1b3 , -4px -4px 12px 0 #70a1b3 ;
+    border-radius: 10px;
+    transform: translateY(-10px)
+}

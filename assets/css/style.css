@@ -1,0 +1,303 @@
+
+
+
+
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* try */
+
+
+.display-container{
+   width: 200vh;
+   height: 85vh;
+   
+    display: none;
+    margin: auto;
+    border-radius: 20px;
+
+}
+.slide1{
+    background-image: url(../images/slider.jpg);
+}
+.slide2{
+    background-image: url(../images/slider3.jpg);
+}
+.slide3{
+    background-image: url(../images/slider2.jpg);
+}
+
+body {
+ /* font */
+ 
+ font-family: "Ubuntu", sans-serif;
+ font-weight: 300;
+ font-style: normal;
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #AEC6CF;
+}
+.container {
+    width: 735px;
+    height: 588px;
+    background: url('../images/docpatient.jpg') center/cover no-repeat;
+
+    border-radius: 30px;
+
+}
+.backgroun-bl {
+    width: 735px;
+    height: 588px;
+    background: rgba(0, 0, 0, 0.4);
+    padding-right: 40px;
+    border-radius: 30px;
+}
+.btn-booking {
+    background-color: rgb(1, 70, 91);
+    width: 150px;
+    height: 40px;
+    color: rgb(195, 185, 185);
+    border: none;
+    border-radius: 15px;
+    text-transform: capitalize;
+    font-size: 15px;
+    position: relative;
+    top: 180px;
+    left: 20px;
+}
+button:hover a {
+    color: white;
+}
+.main-sec {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+.wlc {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.main-txt {
+    position: relative;
+    top: 80px;
+    width: 600px;
+    padding: 80px 0px 80px 90px ;
+}
+.snd-txt {
+    font-size: 30px;
+}
+.txt-sec {
+    padding: 40px;
+}
+.lst-txt {
+    font-size: 17px;
+}
+a {
+    color: rgb(1, 70, 91);
+}
+.dep-hea {
+    text-transform: capitalize;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 50px 500px;
+    padding: 20px;
+}
+.btn-booking a {
+    color: rgb(195, 185, 185);
+}
+.dep-main {
+    background-color: #adbdc3;
+    width: 100%;
+    height: 900px;
+}
+.price {
+    width: 100%;
+    height: 900px;
+    padding: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+.stitle {
+    margin: 50px 200px;
+    text-align: center;
+}
+.stitle p {
+    color: rgb(27, 115, 142);
+}
+.single-table {
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.single-table:hover{
+    box-shadow: 12px 12px 12px 0 #70a1b3 , -8px -8px 12px 0 #70a1b3 ;
+    transform: translateY(-10px)
+}
+.main-off {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 80px;
+}
+.btn {
+    background-color: rgb(1, 70, 91);
+    color: rgb(210, 200, 200);
+    padding: 10px 70px;
+    border-radius: 4px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.table-icon {
+    width: 100px;
+    height: 100px;
+   margin: 0px 130px;
+}
+.single-table h4{
+    font-size: 30px;
+    text-align: center;
+
+}
+.price-sec .amount{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: blue ;
+}
+span{
+    font-size: 15px;
+    color: gray;
+}
+.table-list ul li{
+    margin: 0px 0px 0px 50px;
+    list-style: none;
+    line-height: 30px;
+}
+/* appoinment */
+
+
+
+.form-main-sec{
+    display: flex;
+    gap: 30px;
+  
+    justify-content: center;
+}
+
+.appointment-sec{
+    /* text-align: center; */
+    padding: 40px;
+    background-color: #adbdc3;
+    width: 100%;
+    height: 675px;
+}
+.appo-title{
+    text-align: center;
+}
+.fome-sec{
+  position: relative;
+  top: 80px;
+  
+}
+.form-group {
+ 
+
+    width: 150px;
+    height: 30px;
+}
+
+
+.form-group {
+    margin-bottom: 1rem
+}
+
+input {
+    width: 250px;
+    height: 40px;
+}
+
+textarea {
+    width: 530px;
+    height: 190px;
+    position: relative;
+    bottom: 40px;
+}
+
+.email {
+    position: relative;
+    bottom: 46px;
+    left: 280px;
+
+}
+
+.phone {
+    position: relative;
+    bottom: 20px;
+
+}
+select{
+    width: 250px;
+    height: 40px;
+}
+#dep{
+    position: relative;
+    bottom: 66px;
+    left: 280px;
+   
+}
+#drs{
+    position: relative;
+    right: 255px;
+}
+.date{
+    position: relative;
+    left: 280px;
+    bottom: 40px;
+}
+.msg p{
+    display: inline;
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+    
+}
+.row{
+    position: relative;
+    top: 100px;
+    display: flex;
+    position: relative;
+    top: 120px;
+    justify-content:flex-start;
+  
+}
+.btn-appo{
+    width: 200px;
+    background-color: rgb(1, 70, 91);
+    color: rgb(210, 200, 200);
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+#appo{
+    transition: 1s;
+}

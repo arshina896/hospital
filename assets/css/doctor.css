@@ -1,0 +1,84 @@
+.main-sec {
+    margin: 0px 90px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body {
+    /* background-image: url(../images/blrhospital.jpg); */
+    background-color: #AEC6CF;
+
+}
+
+.sub-sec {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 1s;
+    margin: 30px;
+}
+
+.doc {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+    transition: 1s;
+}
+
+.sub-sec:hover {
+
+    box-shadow: 12px 12px 12px 0 #70a1b3, -8px -8px 12px 0 #70a1b3;
+    border-radius: 25px;
+}
+
+.sub-sec:hover .doc {
+    border-radius: 25px 25px 0px 0px;
+}
+
+.dep-name {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(163, 163, 238);
+    text-transform: capitalize;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+    bottom: 33px;
+    left: 45px;
+}
+
+h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(36, 36, 88);
+    padding-bottom: 10px;
+}
+
+h3 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 15px;
+
+    padding-bottom: 10px;
+}
+
+.details {
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sub-sec:hover {
+    transform: translateY(-10px)
+}

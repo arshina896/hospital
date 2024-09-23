@@ -1,0 +1,68 @@
+body{
+    background-color: #AEC6CF;
+    /* background: linear-gradient(380deg , rgb(85, 85, 148) ,rgb(43, 43, 98) ); */
+   
+}
+.about-main{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    gap: 120px;
+    
+}
+.abt-txt{
+   position: relative;
+   top: 50px;
+   padding: 30px;
+   /* margin: auto; */
+   
+   
+}
+.abt-txt p{
+    width: 400px;
+    text-align: center;
+    
+    
+}
+
+
+h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 40px;
+    
+}
+
+h1{
+    font-size: 60px;
+    
+}
+p{
+    font-size: 15px;
+    
+}
+.ab-img-sec{
+    position: relative;
+    top: 100px;
+   
+}
+
+.a-img{
+    border-radius: 10px;
+   z-index: 1;
+   width: 600px;
+   
+
+}
+ .sub-img{
+    height: 414px;
+    width: 400px;
+    position: absolute;
+    right: 400px;
+    bottom: 100px;
+    z-index: -1;
+    border-radius: 10px;
+
+    
+ }
